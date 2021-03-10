@@ -1,22 +1,99 @@
-.google {
-display: flex;
-justify-content: center;
-margin-top: 70px;
+#top-nav {
+text-align: right;
+word-spacing: 20px;
 }
-
 a {
-   text-decoration: none; 
+ text-decoration: none;   
 }
 
-.nav-bar {
-  text-align: right;
-  
-   
+img {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+
 }
 
-.icons {
-  border: 1px ridge grey;
-  border-radius: 24px;
-  
-  
+.google-img {
+    margin-bottom: 30px;
 }
+
+#main {
+    text-align: center;
+}
+
+.submain {
+    word-spacing: 10px;
+}
+ #search {
+   border: none; 
+   outline: none; 
+   width: 85%;
+
+ }
+
+  
+  .contain {
+    border: 2px solid grey;
+    width: 730px;
+    margin: auto;
+    border-radius: 20px;
+ }
+
+ #sea {
+  float: left;
+  padding: 10px;
+ }
+ #key {
+   float: right;
+   padding: 10px;  
+ }
+
+.contain:hover {
+    box-shadow: 2px 2px 5px rgb(75, 230, 96);
+    transition: 1s ease;
+}
+
+search:hover{
+    border: none;
+}
+
+ button {
+     font-size: 20px;
+     color: blue;
+ }
+
+ .footer {
+    position: fixed;
+    bottom: 0; 
+    background:#f2f2f2;
+    left: 0;
+    right: 0;
+    height: 60px;
+    
+ }
+
+ .footer a{
+    color: ; 
+    padding: 5px;
+    font-size: 15px;
+ }
+
+ .lt {
+   float: left;  
+ }
+
+ .rt {
+   position: relative; 
+   float: right; 
+ }
+ .nig {
+    
+          
+        border-bottom:0.01px solid rgb(201, 196, 190) ;
+        width: 100%;
+        padding: 7px;
+        display: block;
+    float: left;
+    color: grey;   
+    }  
+ 
